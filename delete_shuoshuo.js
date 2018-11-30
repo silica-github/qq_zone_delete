@@ -48,7 +48,7 @@ function deleteMsg() {
     var tid = '';
     for (var item of data.msglist) {
         tid = item.tid;
-        QZONE.FP.showMsgbox('删除' + data.num + '条说说成功')
+        QZONE.FP.showMsgbox('删除' + data.num + '条说说成功');
         (function(opt) {
             opt.qzreferrer += Math.random();
             ajax(opt);
